@@ -1,0 +1,79 @@
+.hero{
+    background-color:#2a5846 ;
+    color: #fdfffc;
+    display:flex;
+    flex-direction: column;
+    padding: 30px 45px 45px 45px;
+ 
+   
+}
+.header-section{
+    display:flex;
+    justify-content: space-between;
+    
+
+}
+.home-icon-section{
+    display: flex;
+    align-items: center;
+}
+.hero-content{
+    display: flex;
+    align-items: center; 
+}
+
+.recipe-icon{
+    width:35px
+}
+.menu-item{
+    width:350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-section{
+    width:70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-btn{
+    background-color: #099960;
+    color: #fdfffc;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+}
+.hero-content-pic{
+position: relative;
+
+}
+.hero-content-pic-one{
+    position: relative;
+}
+.hero-content-pic-two{
+    position: relative;
+    left: 40%;
+    bottom: 40px;
+}
+
+
+.hero-pic {
+    border-radius: 8px;
+    width: 350px;
+    height: 300px;
+    object-fit: cover; 
+  }
+  .hero-pic-small{
+    border-radius: 8px;
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+  }
+  .hero-content{
+    display: flex;
+    padding-top: 30px;
+ }
+ .hero-content-para{
+    width: 60%;
+ }
