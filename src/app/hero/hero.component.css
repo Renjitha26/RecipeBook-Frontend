@@ -4,18 +4,16 @@
     display:flex;
     flex-direction: column;
     padding: 30px 45px 45px 45px;
- 
-   
 }
+
 .header-section{
     display:flex;
     justify-content: space-between;
-    
-
 }
 .home-icon-section{
     display: flex;
     align-items: center;
+
 }
 .hero-content{
     display: flex;
@@ -23,7 +21,11 @@
 }
 
 .recipe-icon{
-    width:35px
+    width:35px;
+    margin-right: 5px;
+}
+.star-icon{
+    width:24px
 }
 .menu-item{
     width:350px;
@@ -41,20 +43,18 @@
     background-color: #099960;
     color: #fdfffc;
     padding: 10px;
+    margin-top: 10px;
     border-radius: 4px;
     border: none;
 }
-.hero-content-pic{
-position: relative;
 
+.hero-content-pic{
+    display: flex;
+    flex-direction: column;
 }
-.hero-content-pic-one{
-    position: relative;
-}
-.hero-content-pic-two{
-    position: relative;
-    left: 40%;
-    bottom: 40px;
+.hero-content-pic-container{
+    display: flex;
+
 }
 
 
@@ -64,16 +64,107 @@ position: relative;
     height: 300px;
     object-fit: cover; 
   }
-  .hero-pic-small{
-    border-radius: 8px;
-    width: 250px;
-    height: 200px;
-    object-fit: cover;
+ 
+  .kitchen-pic  img {
+    display: block;
+    margin: auto; 
+    object-fit: cover; 
   }
+
   .hero-content{
     display: flex;
     padding-top: 30px;
  }
- .hero-content-para{
-    width: 60%;
- }
+
+
+.hero-content-pic-container-content{
+    position: relative;
+}
+ .example-card {
+    /* max-width: 400px; */
+    width: 400px;
+    color: black;
+    position: absolute;
+    bottom: 50px;
+    right: -20px;
+
+  }
+  
+  .example-header-image {
+     background-size: cover;
+  }
+.card-section{
+    display: flex;
+    flex-direction: column;
+}
+  .card-section-container{
+    display: flex;
+    flex-direction: column;
+   }
+  .card-section-container-content{
+    display: flex; 
+  }
+  .card-section{
+    margin:60px;
+  }
+  .card-section-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin-bottom: 10px;
+  }
+  .card-section-container-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card{
+   margin:10px;
+  }
+ 
+  .kitchen-pic{
+    position: relative;
+  }
+  .kitchen-card-section{
+    width: 40%;
+    position: absolute;
+    top:20px;
+    left:10px;
+  }
+  .review-card{
+    width:300px;
+    margin: 30px 20px;
+  }
+  .review-section-content{
+    display: flex;
+    
+  }
+.review-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.footer-section{
+  background-color:#2a5846 ;
+  color: #fdfffc;
+  display:flex;
+  padding: 30px;
+}
+.footer-section-content{
+  display:flex;
+  flex-direction: column;
+  margin-right: 50px;
+  width: 100%;
+
+}
+
+.footer-section-link {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  width: 100%; 
+}
+  
